@@ -47,5 +47,9 @@ PRODUCT_PACKAGES += \
     secril_config_svc \
     vendor.samsung.hardware.radio@2.2
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Inherit from gta4l-common
 $(call inherit-product, device/samsung/gta4l-common/gta4l.mk)
