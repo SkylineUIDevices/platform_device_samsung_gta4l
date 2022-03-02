@@ -13,3 +13,6 @@ persist.vendor.cne.feature=0
 
 # Bluetooth
 bluetooth.device.default_name=Samsung Tab A7 LTE
+
+# USB
+vendor.usb.product_string=Samsung Tab A7 LTE
