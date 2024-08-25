@@ -1,5 +1,8 @@
 # Device-specific proprietary files - from Samsung package version T505XXS7CXB1, unless pinned
 
+# Current blobs with ELF checks disabled:
+# mutualex, libcne.so depend on libwpa_client, which is a gnu makefile target
+
 # RIL
 vendor/bin/adpl
 vendor/bin/hw/rild
@@ -33,7 +36,8 @@ vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
 # CNE
 vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink
 vendor/bin/cnd
-vendor/bin/mutualex
+# mutualex depends on libwpa_client, which is a gnu makefile target
+vendor/bin/mutualex;DISABLE_CHECKELF
 vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -66,7 +70,7 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
 vendor/etc/init/mutualex.rc
-vendor/lib/libcne.so
+vendor/lib/libcne.so;DISABLE_CHECKELF
 vendor/lib/libcneapiclient.so
 vendor/lib/vendor.qti.data.factory@2.0.so
 vendor/lib/vendor.qti.data.factory@2.1.so
@@ -86,7 +90,7 @@ vendor/lib/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.latency@2.1.so
-vendor/lib64/libcne.so
+vendor/lib64/libcne.so;DISABLE_CHECKELF
 vendor/lib64/libcneapiclient.so
 vendor/lib64/vendor.qti.data.factory@2.0.so
 vendor/lib64/vendor.qti.data.factory@2.1.so
