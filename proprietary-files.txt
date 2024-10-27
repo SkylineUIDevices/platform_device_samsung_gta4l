@@ -24,10 +24,8 @@ vendor/lib64/libnetmgr_common.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqmiextservices.so
 vendor/lib64/libqmiservices-sem-ext.so
-vendor/lib64/libqrtr.so
 vendor/lib64/libril_sem.so
 vendor/lib64/libsec-ril.so
-vendor/lib64/libsecril-client.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so
