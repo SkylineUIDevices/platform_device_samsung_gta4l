@@ -35,7 +35,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="gta4lxx-user 12 SP1A.210812.016 T505XXS7CXB1 release-keys" \
-    BuildFingerprint="samsung/gta4lxx/qssi:12/SP1A.210812.016/T505XXS7CXB1:user/release-keys"
+    BuildDesc="gta4lxx-user 12 SP1A.210812.016 T505XXS8CXG1 release-keys" \
+    BuildFingerprint=samsung/gta4leea/gta4l:12/SP1A.210812.016/T505XXS8CXG1:user/release-keys \
     DeviceProduct=gta4lxx \
     SystemName=gta4lxx

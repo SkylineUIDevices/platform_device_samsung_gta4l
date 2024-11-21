@@ -1,4 +1,4 @@
-# Device-specific proprietary files - from Samsung package version T505XXS7CXB1, unless pinned
+# Device-specific proprietary files - from Samsung package version T505XXS8CXG1, unless pinned
 
 # Current blobs with ELF checks disabled:
 # mutualex, libcne.so depend on libwpa_client, which is a gnu makefile target
@@ -117,11 +117,11 @@ vendor/firmware/wlan/qca_cld/regdb.bin
 # WiFi firmware (for SM-T505 model)
 vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T505.mbn
 
-# WiFi firmware (for SM-T505C model - from Samsung package version T505CZCS6CXB1)
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T505C.mbn|f08d5351a35b92c96ee9343a69b6ebca02caab40
+# WiFi firmware (for SM-T505C model - from Samsung package version T505CZCS7CXG1)
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T505C.mbn|84ddd89cc3f46040bf1cc7c8be766c58daefcf67
 
-# WiFi firmware (for SM-T505N model - from Samsung package version T505NDXS6CXB1)
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T505N.mbn|07d656e1880ccece1fd43acfcccbf5019f0b5619
+# WiFi firmware (for SM-T505N model - from Samsung package version T505NDXS7CXG1)
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T505N.mbn|1c4c3e6ddf17929de3e4bfaeb37188c7332baccc
 
-# WiFi firmware (for SM-T507 model - from Samsung package version T507JXS6CXB1)
-vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T507.mbn|8612cd0f840809f3b1306f46c5f6b11301885cd0
+# WiFi firmware (for SM-T507 model - from Samsung package version T507JXS7CXG1)
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T507.mbn|93dec4ec0a697570ec7ddb03a8fb5b5d93fe4fa7
