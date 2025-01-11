@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2023-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -50,6 +50,10 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# WiFi firmware
+PRODUCT_PACKAGES += \
+    dummy_wlanmdsp.mbn
 
 # Inherit from gta4l-common
 $(call inherit-product, device/samsung/gta4l-common/gta4l.mk)
