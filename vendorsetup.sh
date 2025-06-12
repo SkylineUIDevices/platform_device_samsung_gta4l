@@ -1,6 +1,6 @@
 # Common
 rm -rf device/samsung/gta4l-common
-git clone https://github.com/LineageOS/android_device_samsung_gta4l-common.git device/samsung/gta4l-common --depth=1
+git clone https://github.com/SkylineUIDevices/platform_device_samsung_gta4l-common.git device/samsung/gta4l-common --depth=1
 
 # Vendor
 rm -rf vendor/samsung/gta4l
