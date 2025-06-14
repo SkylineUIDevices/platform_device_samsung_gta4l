@@ -33,6 +33,10 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
+# SkylineUI Maintainer Flags
+SKYLINEUI_MAINTAINER := GXC2356
+CUSTOM_BUILD_TYPE := OFFICIAL
+
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="gta4lxx-user 12 SP1A.210812.016 T505XXS8CXG1 release-keys" \
