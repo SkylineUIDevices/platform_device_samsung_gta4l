@@ -8,7 +8,7 @@ git clone https://github.com/TheMuppets/proprietary_vendor_samsung_gta4l.git ven
 
 # Vendor common
 rm -rf vendor/samsung/gta4l-common
-git clone https://github.com/TheMuppets/proprietary_vendor_samsung_gta4l-common.git vendor/samsung/gta4l-common --depth=1
+git clone https://github.com/SkylineUIDevices/proprietary_vendor_samsung_gta4l-common.git vendor/samsung/gta4l-common --depth=1
 
 # Kernel
 rm -rf kernel/samsung/sm6115
