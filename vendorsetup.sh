@@ -12,7 +12,7 @@ git clone https://github.com/SkylineUIDevices/proprietary_vendor_samsung_gta4l-c
 
 # Kernel
 rm -rf kernel/samsung/sm6115
-git clone https://github.com/LineageOS/android_kernel_samsung_sm6115.git kernel/samsung/sm6115 --depth=1
+git clone https://github.com/SkylineUIDevices/platform_kernel_samsung_sm6115.git kernel/samsung/sm6115 --depth=1
 
 # Hardware
 rm -rf hardware/samsung
